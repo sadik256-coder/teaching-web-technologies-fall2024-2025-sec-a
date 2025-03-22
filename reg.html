@@ -6,37 +6,124 @@
      </head>
     <body>
         <form>
-       <lebel  for ="first"> First Name:</lebel>
-       <input type ="text" id="first" name="first"/>
-       <lebel  for ="last"> Last Name:</lebel>
-       <input type ="text" id="last" name="last"/>
-       <lebel  for ="email"> Email:</lebel>
-       <input type ="text" id="email" name="password"/>
-       <lebel  for ="password"> Password:</lebel>
-       <input type ="password" id="password" name="password"/>
-       <lebel  for ="date"> DOB:</lebel>
-       <input type ="date" id="date" name="date"/>
-        <lebel  for ="gender"> Gender:</lebel>
-       <lebel  for ="male"> Male:</lebel>
-       <input type ="radio" id="male" name="male"/>
-       <lebel  for ="male"> Female:</lebel>
-       <input type ="radio" id="male" name="male"/>
-       <lebel  for ="department"> Department:</lebel>
-       <input type ="radio" id="male" name="male"/>
+       <lebel  for ="first"> First Name:</lebel><br>
+       <input type ="text" id="first" name="first"/><br>
+       
+       <lebel  for ="last"> Last Name:</lebel><br>
+       <input type ="text" id="last" name="last"/><br>
 
-<option value = "male">
-    Male
-</option>
+       <lebel  for ="email"> Email:</lebel><br>
+       <input type ="text" id="email" name="password"/><br>
 
-<option value = "female">
-    Female
-</option>
+       <lebel  for ="password"> Password:</lebel><br>
+       <input type ="password" id="password" name="password"/><br>
 
-<option value = "other">
-    Other
-</option>
-</select>
+       <lebel  for ="date"> DOB:</lebel><br>
+       <input type ="date" id="date" name="date"/><br>
+
+        <lebel  for ="gender"> Gender:</lebel><br>
+
+        <input type ="radio" id="male" name="Gender" value = "Male"/>
+        <lebel  for ="male"> Male:</lebel><br>
+
+       <input type ="radio" id="male" name="Gender" value = "Female"/>
+       <lebel  for ="female"> Female:</lebel><br>
+
+       <input type ="radio" id="male" name="Gender" value = "Other"/>
+       <lebel  for ="other"> Other:</lebel><br>
+      
+       <lebel  for ="department"> Department:</lebel><br>
+       <select name = "dept" id = "dept"><br>
+
+<option value ="CSE"><cse</option>
+<option value ="EEE"><eee</option>
+<option value ="BBA"><bba</option>
+       </select><br>
+
+       <lebel  for ="cv"> Cv:</lebel>
+       <input type ="file" id="cv" name="cv"/><br>
+
+    <input type ="button"  value="Blank"/>
+    <input type ="button"  value="Submit"/>
+    <input type ="button"  value="Reset"/>
+
+
+
         </form>
 
     </body>
     </html>
+
+
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">  
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h2>Registration Form</h2>
+        
+        <table>
+            <tr>
+                <td><label for="fname">First Name:</label></td>
+                <td><input type="text" id="fname" name="fname"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name:</label></td>
+                <td><input type="text" id="lname" name="lname"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">DOB:</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dept">Department:</label></td>
+                <td><input type="text" id="dept" name="dept"></td>
+            </tr>
+
+
+
+
+            <tr>
+                <td><label for="userid">User ID:</label></td>
+                <td><input type="number" id="userid" name="userid"></td>
+            </tr>
+            
+            
+            
+            
+            
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea id="address" name="address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="image">Upload Image:</label></td>
+                <td><input type="file" id="image" name="image"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
